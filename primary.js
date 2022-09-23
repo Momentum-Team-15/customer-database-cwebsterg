@@ -38,11 +38,11 @@ const directory = document.querySelector("#directory");
         customerDiv.classList.add("dob");
         dob.innerText = customer.dob.date;
 
-// dateRegistered: create element for date and format to remove time data
+// dateRegistered: create element for date of registration and format to remove time data
         let dateRegistered = document.createElement("div");
         customerDiv.classList.add("registered");
         dateRegistered.innerText = customer.registered.date;
-        
+
 // write the conplete customer record to its own entry box and render all boxes in directory container
         customerDiv.appendChild(photo);
         customerDiv.appendChild(fullName);

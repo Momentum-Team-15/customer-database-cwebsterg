@@ -26,13 +26,12 @@ const directory = document.querySelector("#directory");
 
 // data values mapped to declared variables
         photo.src = customer.picture.large;
-        fullName.innerText = `${customer.name.title} ${customer.name.first} ${customer.name.last}`;
+        fullName.innerText = `${customer.name.title}. ${customer.name.first} ${customer.name.last}`;
         email.innerText = customer.email;
         street.innerText = `${customer.location.street.number} ${customer.location.street.name}`;
         cityState.innerText = `${customer.location.city}, ${customer.location.state} ${customer.location.postcode}`;
-        // dob.innerText = `${"Birthday:" ${customer.dob.date}}`;
-        // dob.innerText = customer.date.dob;
-        dateRegistered.innerText = customer.registered.date;
+        dob.innerText = `Birthday: ${moment(customer.dob.date).format("MMM Do YYYY")}`;
+        dateRegistered.innerText = `Customer since ${moment(customer.registered.date).format("MMM Do YYYY")}`;
 
 
 // write the conplete customer record to its own entry box

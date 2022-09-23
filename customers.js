@@ -185,7 +185,7 @@ const customers = [
   },
   {
     name: {
-      title: '',
+      title: 'Ms',
       first: 'cristina',
       last: 'porter'
     },

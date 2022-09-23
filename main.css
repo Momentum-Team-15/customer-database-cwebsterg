@@ -1,63 +1,73 @@
     body {
+        border: dotted 3px lightblue;
         box-sizing: border-box;
-        margin: 20px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    /* h1 {
-        text-decoration-line: overline underline;
-    } */
-
     h1 {
+        border: dotted 3px blue;
         color: white;
         background-color: #004175;
         border-bottom: 2px solid #89deef;
         border-radius: 50px 10px 50px 10px;
         font-weight: bold;
-        font-size: large;
-        padding-left: 30vw;
-        padding-top: 5px;
+        font-size: larger;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
-    
+
     #directory {
+        border: dotted 3px purple;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     .customer {
         border: outset 3px lightgray;
-        margin: 3vw;
-        padding: 2vw;
-        text-align: center;
+        border-radius: 5px 5px 5px 5px;
+        margin: 3px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
     }
 
-    .photo {
+    img {
         border-radius: 50px 10px 50px 10px;
-        border: 3px black inset;
+        border: 3px inset lightgray;
+        padding-top: 3px;
     }
-
+ /*
     h3 {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-decoration-line: underline ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration-line: underline;
+        text-transform: capitalize;
     }
 
     .email {
         font-style: italic;
-        margin: 2vw;
+        margin: 10vw;
+        padding: 2vw;
         font-size: smaller;
     }
 
     .street {
+        font-style: normal;
         font-size: smaller;
+        font-style: normal;
     }
 
     .cityState {
         font-size: smaller;
+        margin: 2vw;
+        padding: 2vw;
     }
+
 
     .dob {
         font-style: italic;
         margin-top: 2vw;
         font-size: smaller;
-    }
-
+    } */
