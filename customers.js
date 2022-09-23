@@ -47,7 +47,7 @@ const customers = [
   },
   {
     name: {
-      title: 'mx',
+      title: 'ms',
       first: 'krin',
       last: 'oliver'
     },
