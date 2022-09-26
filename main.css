@@ -1,12 +1,11 @@
     body {
-        border: dotted 3px lightblue;
         box-sizing: border-box;
         margin: 2px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
     }
 
     h1 {
-        border: dotted 3px blue;
         color: white;
         background-color: #004175;
         border-bottom: 2px solid #89deef;
@@ -19,55 +18,53 @@
     }
 
     #directory {
-        border: dotted 3px purple;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        justify-content: space-around;
     }
 
     .customer {
-        border: outset 3px lightgray;
         border-radius: 5px 5px 5px 5px;
         margin: 3px;
         padding: 5px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     img {
         border-radius: 50px 10px 50px 10px;
         border: 3px inset lightgray;
-        padding-top: 3px;
+        width: 100px;
+        margin-bottom: 3px;
     }
- /*
-    h3 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .fullName {
+        margin-top: 2px;
         text-decoration-line: underline;
         text-transform: capitalize;
     }
 
     .email {
+        color: gray;
         font-style: italic;
-        margin: 10vw;
-        padding: 2vw;
-        font-size: smaller;
+        padding: 2px;
+        font-size: small;
+        margin-top: 2px;
     }
 
-    .street {
+    .address {
         font-style: normal;
-        font-size: smaller;
-        font-style: normal;
+        font-size: small;
     }
-
-    .cityState {
-        font-size: smaller;
-        margin: 2vw;
-        padding: 2vw;
-    }
-
 
     .dob {
-        font-style: italic;
-        margin-top: 2vw;
-        font-size: smaller;
-    } */
+        margin-top: 5px;
+        /* font-style: italic; */
+        font-size: x-small;
+    }
+
+    .registered {
+        /* font-style: italic; */
+        font-size: x-small;
+    }
